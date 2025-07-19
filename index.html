@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohammed Anaan - Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">MA</h1>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero" class="hero-section">
+        <div class="container">
+            <div class="hero-text">
+                <h2>
+  <span class="name-part mohammed" onclick="animateName(this)">Mohammed</span>
+  <span class="name-part anaan" onclick="animateName(this)">Anaan</span>
+</h2>
+
+
+                <p>An Aspiring Full Stack Web Developer leveraging AI/ML for innovative solutions.</p>
+            </div>
+            <div class="profile-photo-container" id="profilePhotoContainer">
+                <img src="images/profile.jpg" alt="Mohammed Anaan Profile Photo" class="profile-photo">
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="education-section">
+        <div class="container">
+            <h3>My Academic Journey</h3>
+            <div class="education-card">
+                <h4>St. Peter's Engineering College</h4>
+                <p><strong>Current Status:</strong> 2nd Year, 1st Semester, Computer Science Engineering (AIML)</p>
+                <p><strong>Expected Graduation:</strong> 2028</p>
+                <p>My studies here are providing a strong foundation in core computer science principles, with a specialized focus on Artificial Intelligence and Machine Learning, preparing me for the innovative demands of the tech industry.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="container">
+            <h3>About Me</h3>
+            <p>
+                As a dynamic 2nd-year CSE student specializing in Artificial Intelligence and Machine Learning at St. Peter's Engineering College, my academic journey is centered around building robust and intelligent software solutions. I am deeply passionate about leveraging technology to solve real-world problems and constantly seek opportunities to expand my knowledge and practical skills in the ever-evolving tech landscape.
+            </p>
+            <p>
+                My ultimate goal is to become a Full Stack Web Developer, capable of crafting seamless and powerful applications from front-end user interfaces to complex back-end systems. My proficiency in C and Java, combined with a growing expertise in web technologies, positions me to embark on challenging projects that drive innovation and deliver exceptional user experiences. Expected to graduate in 2028, I am eager to contribute to forward-thinking teams and impactful initiatives.
+            </p>
+        </div>
+    </section>
+
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <h3>My Core Skills</h3>
+            <div class="skills-grid">
+                <div class="skill-card" data-skill="C">
+                    <i class="fas fa-cuttlefish"></i>
+                    <span>C</span>
+                </div>
+                <div class="skill-card" data-skill="Java">
+                    <i class="fab fa-java"></i>
+                    <span>Java</span>
+                </div>
+                <div class="skill-card" data-skill="HTML">
+                    <i class="fab fa-html5"></i>
+                    <span>HTML</span>
+                </div>
+                <div class="skill-card" data-skill="CSS">
+                    <i class="fab fa-css3-alt"></i>
+                    <span>CSS</span>
+                </div>
+                <div class="skill-card" data-skill="JavaScript">
+                    <i class="fab fa-js"></i>
+                    <span>JavaScript</span>
+                </div>
+                <div class="skill-card" data-skill="GitHub">
+                    <i class="fab fa-github"></i>
+                    <span>GitHub</span>
+                </div>
+                <div class="skill-card" data-skill="VS Code">
+                    <i class="fas fa-code"></i>
+                    <span>VS Code</span>
+                </div>
+            </div>
+            <p class="skills-coming-soon">
+                More skills coming soon as I continue my learning journey!
+            </p>
+        </div>
+    </section>
+
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <h3>My Projects</h3>
+            <div class="project-card">
+                <h4>Smart Scheduler</h4>
+                <p>
+                    An interactive web application built with HTML, CSS, and JavaScript, designed to empower students to efficiently manage their academic schedules, deadlines, and study time, directly contributing to **SDG 4: Quality Education**.
+                </p>
+                <a href="https://annu987.github.io/smart-schedule/" class="btn view-project-btn">View Project</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h3>Get In Touch</h3>
+            <p>Feel free to reach out for collaborations or opportunities!</p>
+            <div class="contact-info">
+                <p><strong>Email:</strong> <a href="mailto:zeb.begum786@gmail.com">zeb.begum786@gmail.com</a> | <a href="mailto:24bk1a66bt@stpetershyd.com">24bk1a66bt@stpetershyd.com</a></p>
+                <p><strong>Phone:</strong> <a href="tel:+919246710026">+91 9246710026</a></p>
+            </div>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/mohammed-anaan-b06b90360/" target="_blank" aria-label="LinkedIn Profile"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/annu987" target="_blank" aria-label="GitHub Profile"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Mohammed Anaan. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <div id="skillModal" class="modal-overlay">
+        <div class="modal-content">
+            <button class="modal-close-btn">&times;</button>
+            <h4 id="modalSkillTitle"></h4>
+            <div id="modalSkillDescription"></div>
+        </div>
+    </div>
+
+    <div id="photoModal" class="modal-overlay">
+        <div class="modal-content">
+            <button class="modal-close-btn" id="photoModalCloseBtn">&times;</button>
+            <img src="your-photo.jpg" alt="Mohammed Anaan Profile Photo" id="modalPhotoImage">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
